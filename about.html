@@ -18,6 +18,8 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/graph.css" />
+
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
@@ -27,7 +29,7 @@
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="./css/graph.css" rel="stylesheet" />
 
 </head>
 
@@ -57,7 +59,7 @@
                 <a class="nav-link" href="about.html"> About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="furniture.html">Raise Issue</a>
+                 <a class="nav-link" href="#" id="raiseIssueLink">Raise Issue</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="blog.html">All Issue</a>
@@ -86,34 +88,34 @@
     <!-- end header section -->
   </div>
 
-  <!-- about section -->
 
-  <section class="about_section layout_padding long_section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="img-box">
-            <img src="images/about-img.png" alt="">
-          </div>
+   <section class="about_section layout_padding long_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="img-box">
+          <img src="images/about-img.png" alt="Grievance Redressal" />
         </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About Us
-              </h2>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore.
-            </p>
-            <a href="">
-              Read More
-            </a>
+      </div>
+      <div class="col-md-6">
+        <div class="detail-box">
+          <div class="heading_container">
+            <h2>About Our Grievance Redressal System</h2>
           </div>
+          <p>
+            Our Grievance Redressal System is designed to address and resolve
+            concerns efficiently and effectively. We are committed to providing
+            a transparent and responsive process where grievances are handled
+            with utmost priority. Our system ensures that every complaint is
+            logged, tracked, and resolved in a timely manner, fostering trust
+            and satisfaction among our users.
+          </p>
+          <a href=""> Learn More </a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- end about section -->
 
@@ -241,7 +243,7 @@
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
   <!-- End Google Map -->
-
+<script src="./js/raiseIssue.js"></script>
 </body>
 
 </html>

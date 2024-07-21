@@ -59,6 +59,13 @@ main,
 nav,
 section {
   display: block;
+   
+}
+nav {
+  background-color: #6BB7Be;
+  width: 100%;
+  /* opacity: 0.5; */
+  
 }
 
 body {
@@ -4445,6 +4452,7 @@ input[type="button"].btn-block {
 }
 
 .nav {
+   
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -4452,6 +4460,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+
 }
 
 .nav-link {
@@ -11140,6 +11149,10 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+.navbar-brand img{
+  height: 100px;
+  z-index: 99999999999;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
